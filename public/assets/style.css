@@ -106,7 +106,10 @@ a {
 
 .listing-intro {
   margin-bottom: 16px;
-  color: var(--muted);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
 }
 
 .listing-intro > :first-child {
