@@ -1,6 +1,6 @@
 # BARTist
 
-This repository is the [bartist.app](https://bartist.app) website. It is generated with [blug.blog](https://blug.blog).
+This repository is for the [BARTist app](https://bartist.app) website. It is generated with [blug.blog](https://blug.blog).
 
 ## Run locally
 
@@ -14,7 +14,9 @@ Then open http://localhost:3000.
 
 ## Modify contents
 
-News posts are markdown folders under `public/`. Create `public/<slug>/index.md`:
+To create a new post, create a new folder under `public/` and add content in `public/<slug>/index.md`.
+For example
+
 
 ```markdown
 ---
@@ -22,9 +24,9 @@ title: Hello World
 date: 2026-08-30
 ---
 
-Text. Media next to this file: [photo](./photo.jpg).
+This is the text of the new post. This is a link to sample [photo](./photo.jpg).
 ```
 
 `title` and `date` are required. Keep media in the same directory and use relative links.
 
-Edit `scripts/config.js` for the site title, footer, listing heading, and the home-page intro (`LISTING_INTRO`). After you change markdown or config, run `npm run generate` again and refresh.
+To update site metadata, edit `scripts/config.js`. Site main page, header and footer HTML can also be updated. See [blug.blog](https://blug.blog) for more details.
