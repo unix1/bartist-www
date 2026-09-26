@@ -106,7 +106,7 @@ function writeListing(posts) {
   const items = posts
     .map(
       (post) =>
-        `  <li><time datetime="${formatDate(post.date)}">${formatDate(post.date)}</time> <a href="${post.slug}/">${escapeHtml(post.title)}</a></li>`,
+        `  <li><a href="${post.slug}/"><time datetime="${formatDate(post.date)}">${formatDate(post.date)}</time> <span>${escapeHtml(post.title)}</span></a></li>`,
     )
     .join("\n");
 
