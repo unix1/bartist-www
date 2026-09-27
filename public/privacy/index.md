@@ -9,7 +9,7 @@ This policy covers the BARTist iOS app and this website, [bartist.app](https://b
 
 ## In short
 
-BARTist does not collect personal data, show ads, or use tracking or analytics.
+BARTist does not collect personal data or show ads. We do not add tracking or analytics.
 
 ## The app
 
@@ -23,9 +23,9 @@ Because we do not collect data, we do not store, share, or sell any, and there i
 
 ## The website
 
-This website does not use cookies, does not collect personal data, and does not use tracking or analytics.
+This website does not use cookies and does not collect personal data. We do not add tracking or analytics.
 
-Like most websites, it is hosted by a third-party provider.
+The site is hosted by Cloudflare.
 
 ## Children
 
