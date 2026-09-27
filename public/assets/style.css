@@ -189,6 +189,13 @@ article time {
   font-size: 0.875rem;
 }
 
+article h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.35rem 0 0.45rem;
+  color: var(--text);
+}
+
 article > :last-child {
   margin-bottom: 0;
 }
@@ -245,10 +252,9 @@ blockquote > :last-child {
 }
 
 .app-footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
   background: var(--card);
   border-top: 1px solid var(--line);
   padding: 14px 16px;
@@ -261,16 +267,17 @@ blockquote > :last-child {
 }
 
 .app-footer .credit {
+  justify-self: end;
   text-align: right;
 }
 
-.app-footer .credit a {
+.app-footer a {
   color: var(--blue);
   text-decoration: none;
 }
 
-.app-footer .credit a:hover,
-.app-footer .credit a:focus-visible {
+.app-footer a:hover,
+.app-footer a:focus-visible {
   text-decoration: underline;
 }
 
