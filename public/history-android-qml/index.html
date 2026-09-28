@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e3eef8">
+  <title>History: Android QML app</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <a class="brand" href="/">
+        <img class="brand-icon" src="/assets/bartist-icon.svg" width="32" height="32" alt="">
+        <span class="site-title">BARTist</span>
+      </a>
+    </header>
+    <main>
+<article>
+<h1>History: Android QML app</h1>
+<time datetime="2026-09-28">2026-09-28</time>
+<p>After <a href="../history-ubuntu-touch/">Ubuntu Touch was discontinued</a> I moved back to Android. I wanted a compact AOSP phone, but most phones were getting larger with time. I ended up getting Sony Xperia X Compact.</p>
+<p>After novelty wore off, I promptly de-Googled it, but now I had the same problem - I needed a simple BART live train departures app. So I dusted off my Ubuntu Touch project and ... who wants to write Java, right? Just use cross platform Qt with QML on Android!</p>
+<p>This ended up a bigger project than I intended. I ported BARTist to Qt/QML on Android and <a href="https://unix1.net/qt-qml-android-app-development-setup/">wrote a blog post about it</a>.</p>
+<p>This is how it looked</p>
+<p><img src="./bartist-trains-android-qml.png" alt="Train departures on Android, 12th St. Oakland City Center"></p>
+<p>This was the station selector</p>
+<p><img src="./bartist-stations-android-qml.png" alt="Station picker on Android"></p>
+<p>And I added the BART map</p>
+<p><img src="./bartist-map-android-qml.png" alt="BART system map on Android"></p>
+<p>Not pictured in the linked blog post is time I spent getting OpenSSL to compile with Qt in order to ship the app package to Google Play. It worked in the end though and BARTist grew into its second app store home.</p>
+<p>What happened to it? Eventually Google got me on minor OpenSSL version bug fix release and I never bothered upgrading and resubmitting. They removed my app after a grace period.</p>
+
+</article>
+    </main>
+    <footer class="app-footer">
+      <p>© BARTist</p>
+      <p><a href="/privacy/">privacy</a></p>
+      <p class="credit"><a href="https://blug.blog">blug.blog</a></p>
+    </footer>
+  </div>
+</body>
+</html>
