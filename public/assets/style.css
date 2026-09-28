@@ -120,6 +120,34 @@ a {
   margin-bottom: 0;
 }
 
+.screenshot-row {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+
+.screenshot-row a {
+  flex: 1;
+  min-width: 0;
+}
+
+.screenshot-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.screenshot-row a:hover img,
+.screenshot-row a:focus-visible img {
+  border-color: var(--blue);
+}
+
+.screenshot-row a:focus-visible {
+  outline: none;
+}
+
 .post-list {
   list-style: none;
   padding: 0;
