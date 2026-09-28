@@ -205,6 +205,13 @@ img {
   height: auto;
 }
 
+article img {
+  display: block;
+  margin: 1rem 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 code {
   font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   font-size: 0.875em;
