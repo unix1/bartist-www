@@ -2,7 +2,9 @@ export const SITE_HEADER = "BARTist";
 export const SITE_FOOTER = "© BARTist";
 export const LISTING_HEADING = "News";
 // Markdown shown above the post list on the home page. Empty string omits it.
-export const LISTING_INTRO = `BARTist is an app for real-time BART train departure times. An iPhone app is coming soon.
+export const LISTING_INTRO = `BARTist is an app for real-time BART train departure times. Now available on iPhone.
+
+<p><a class="app-store" href="https://apps.apple.com/us/app/bartist/id6816738607"><img src="/assets/download-on-the-app-store.svg" alt="Download on the App Store" width="120" height="40"></a></p>
 
 <div class="screenshot-row">
 <a href="/bartist-trains.png"><img src="/bartist-trains-sm.png" alt="Train departures at Embarcadero" width="360" height="779"></a>
