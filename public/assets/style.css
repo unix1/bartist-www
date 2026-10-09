@@ -120,6 +120,26 @@ a {
   margin-bottom: 0;
 }
 
+a.app-store {
+  display: inline-block;
+  line-height: 0;
+}
+
+a.app-store img,
+.listing-intro a.app-store img,
+article a.app-store img {
+  display: block;
+  width: 120px;
+  height: 40px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.listing-intro a.app-store {
+  margin: 2px 0 4px;
+}
+
 .screenshot-row {
   display: flex;
   gap: 8px;
