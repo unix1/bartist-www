@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e3eef8">
+  <title>Native iOS app, version 1.1</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <a class="brand" href="/">
+        <img class="brand-icon" src="/assets/bartist-icon.svg" width="32" height="32" alt="">
+        <span class="site-title">BARTist</span>
+      </a>
+    </header>
+    <main>
+<article>
+<h1>Native iOS app, version 1.1</h1>
+<time datetime="2026-10-15">2026-10-15</time>
+<p>BARTist version 1.1 is now an iOS native app implemented in Swift.</p>
+<p><a class="app-store" href="https://apps.apple.com/us/app/bartist/id6816738607"><img src="/assets/download-on-the-app-store.svg" alt="Download on the App Store" width="120" height="40"></a></p>
+
+<p>The <a href="../ios-app/">first App Store release</a> was written using the cross platform <a href="https://tauri.app/">Tauri</a> framework. It worked well, but fell just a bit short of other native apps - pull to refresh, tabs, pinch to zoom were just a bit clunkier and less fitting. It&#39;s time for a real native iOS app. Given that BARTist is simple, so was the rewrite.</p>
+<p>The trains tab provides the same dense view of real time train departure information grouped by destination. Note the native tabs and buttons. Also, it now supports the same pull to refresh feel you expect in iOS apps:</p>
+<p><img src="./bartist-trains-ios-native.png" alt="Train departures at Embarcadero"></p>
+<p>Station picker also has a native iOS look and now supports gestures for closing the selection modal:</p>
+<p><img src="./bartist-stations-ios-native.png" alt="Station picker"></p>
+<p>And the system map, still with the day/night toggle, gives you a buttery smooth pinch to zoom:</p>
+<p><img src="./bartist-map-ios-native.png" alt="BART system map"></p>
+<p>The same app, better UX. Still no ads, accounts, subscriptions, tracking, or analytics. It&#39;s open source and the <a href="https://github.com/unix1/bartist">code is on GitHub</a>. Enjoy!</p>
+
+</article>
+    </main>
+    <footer class="app-footer">
+      <p>© BARTist</p>
+      <p><a href="/privacy/">privacy</a></p>
+      <p class="credit"><a href="https://blug.blog">blug.blog</a></p>
+    </footer>
+  </div>
+</body>
+</html>
