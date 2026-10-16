@@ -9,7 +9,7 @@ BARTist is back! This time for iPhone.
 
 It does what I want on my commute: display live BART train departure times. Pick a station, see next few trains by destination with car length and minutes until each departure.
 
-![Train departures at Embarcadero](/bartist-trains.png)
+![Train departures at Embarcadero](./bartist-trains-ios.png)
 
 What do I mean by being back? Read its history.
 
@@ -21,10 +21,10 @@ And now BARTist has its third home on Apple's App Store, staying true to its ori
 
 This is the station picker on iPhone.
 
-![Station picker](/bartist-stations.png)
+![Station picker](./bartist-stations-ios.png)
 
 And here is the system map, with the day/night toggle for respective service coverage.
 
-![BART system map](/bartist-map.png)
+![BART system map](./bartist-map-ios.png)
 
 It uses [BART's official API](https://www.bart.gov/schedules/developers/api). No ads, accounts, subscriptions, tracking, or analytics. The [code is on GitHub](https://github.com/unix1/bartist). Feedback and contributions are welcome.
