@@ -8,8 +8,8 @@ export const LISTING_INTRO = `BARTist is an app for real-time BART train departu
 
 <div class="screenshot-row">
 <a href="/bartist-trains.png"><img src="/bartist-trains-sm.png" alt="Train departures at Embarcadero" width="360" height="782"></a>
-<a href="/bartist-stations.png"><img src="/bartist-stations-sm.png" alt="Station picker" width="360" height="782"></a>
 <a href="/bartist-map.png"><img src="/bartist-map-sm.png" alt="BART system map" width="360" height="782"></a>
+<a href="/bartist-settings.png"><img src="/bartist-settings-sm.png" alt="Settings" width="360" height="782"></a>
 </div>
 
 BARTist is open source. Contributions are welcome! Visit the [BARTist GitHub repo](https://github.com/unix1/bartist).`;
