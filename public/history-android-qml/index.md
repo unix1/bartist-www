@@ -11,15 +11,15 @@ This ended up a bigger project than I had intended. I ported BARTist to Qt/QML o
 
 This is how it looked
 
-![Train departures on Android, 12th St. Oakland City Center](./bartist-trains-android-qml.png)
+<img class="screenshot-rect" src="./bartist-trains-android-qml.png" alt="Train departures on Android, 12th St. Oakland City Center">
 
 This was the station selector
 
-![Station picker on Android](./bartist-stations-android-qml.png)
+<img class="screenshot-rect" src="./bartist-stations-android-qml.png" alt="Station picker on Android">
 
 And I added the BART map
 
-![BART system map on Android](./bartist-map-android-qml.png)
+<img class="screenshot-rect" src="./bartist-map-android-qml.png" alt="BART system map on Android">
 
 Not pictured in the linked blog post is time I spent getting OpenSSL to compile with Qt in order to ship the app package to Google Play. It worked in the end though and BARTist grew into its second app store home.
 
