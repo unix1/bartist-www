@@ -25,7 +25,7 @@ Settings are also split naturally:
 
 ![Settings on iPhone Duo](./bartist-duo-settings.png)
 
-Of course, the iPhone Duo fully supports the [dark mode](../dark-mode/).
+Of course, the iPhone Duo fully supports the [dark mode](../dark-mode/) as well.
 
 iPhone Duo in folded pose along with other iPhones has the same UX as before.
 

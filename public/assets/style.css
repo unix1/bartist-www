@@ -257,6 +257,10 @@ article img {
   display: block;
   margin: 1rem 0;
   border: 1px solid var(--line);
+  border-radius: 32px;
+}
+
+article img.screenshot-rect {
   border-radius: 8px;
 }
 

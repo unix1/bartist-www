@@ -7,11 +7,11 @@ Here's a fun fact: I started BARTist as an [Ubuntu Touch](https://en.wikipedia.o
 
 This was working out great for very basic functionality. However, for certain uses, apps are convenient, and there wasn't a wide variety. My daily commute included BART, so out of convenience, I wrote an app to track train departure times. Here's a screenshot
 
-![Train departures on Ubuntu Touch, MacArthur station](./bartist-trains-ubuntu-touch.png)
+<img class="screenshot-rect" src="./bartist-trains-ubuntu-touch.png" alt="Train departures on Ubuntu Touch, MacArthur station">
 
 For those who don't know, BART has a very liberal, [developer friendly API](https://www.bart.gov/schedules/developers/api). Here's how you'd pick a station
 
-![Station picker on Ubuntu Touch](./bartist-stations-ubuntu-touch.png)
+<img class="screenshot-rect" src="./bartist-stations-ubuntu-touch.png" alt="Station picker on Ubuntu Touch">
 
 I even figured out how to implement pull-to-refresh in QML! I published the app on the official Ubuntu repository, but alas, the platform was shut down the following year.
 
