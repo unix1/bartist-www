@@ -1,4 +1,7 @@
 export const SITE_HEADER = "BARTist";
+export const SITE_TITLE = "BARTist - real-time BART train departures for iPhone";
+export const SITE_SUBTITLE = "BARTist";
+export const SITE_DESCRIPTION = "BARTist is an app for real-time BART train departure times for iPhone.";
 export const SITE_FOOTER = "© BARTist";
 export const LISTING_HEADING = "News";
 // Markdown shown above the post list on the home page. Empty string omits it.
